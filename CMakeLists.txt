@@ -4,13 +4,6 @@ project(CMaize_Public_Depend2)
 include("${PROJECT_SOURCE_DIR}/cmake/get_cpp.cmake")
 
 cpp_find_or_build_dependency(
-    CMakePublic
-    URL github.com/ally3999/CMakepublic
-    BUILD_TARGET CMakePublic
-    FIND_TARGET CMakePublic:CMakePublic
-)
-
-cpp_find_or_build_dependency(
     CMaizePublicDepend
     URL github.com/ally3999/CMaizePublicDepend
     BUILD_TARGET CMaizePublicDepend
