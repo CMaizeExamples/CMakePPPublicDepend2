@@ -1,6 +1,3 @@
-#ifndef CMAKE_PUBLIC_DEPEND2_HPP
-#define CMAKE_PUBLIC_DEPEND2_HPP
+#pragma once
 
 int call_cmake_public_depend2();
-
-#endif
